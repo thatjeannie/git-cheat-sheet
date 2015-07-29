@@ -1,43 +1,43 @@
 # Git Cheat Sheet
 
 ## Basic Tips with Commands
-* Create and check out a new local branch:\s\s
-    `git checkout -b branch_name`
+* Create and check out a new local branch:
+  * `git checkout -b branch_name`
 
-* Check out an existing branch OR master:\s\s
-    `git checkout branch_name` OR `git checkout master`
+* Check out an existing branch OR master:
+  * `git checkout branch_name` OR `git checkout master`
 
-* Add changes (INcluding new files, EXcluding `rm` or manually deleted files) to stage:\s\s
-    `git add .`
+* Add changes (INcluding new files, EXcluding `rm` or manually deleted files) to stage:
+  * `git add .`
 
-* Add changes (EXcluding new files, INcluding `rm` or manually deleted files) to stage:\s\s
-    `git add -u`
+* Add changes (EXcluding new files, INcluding `rm` or manually deleted files) to stage:
+  * `git add -u`
 
-* Add changes (INcluding new files, INcluding `rm` or manually deleted files) to stage:\s\s
-    `git add -A`
+* Add changes (INcluding new files, INcluding `rm` or manually deleted files) to stage:
+  * `git add -A`
 
-* Commit added changes (`-m` precedes the commit message):\s\s
-    `git commit -m 'commit message'`
+* Commit added changes (`-m` precedes the commit message):
+  * `git commit -m 'commit message'`
 
-* Pull master from origin:\s\s
-    `git pull origin master`
+* Pull master from origin:
+  * `git pull origin master`
 
-* Pull a branch from origin:\s\s
-    `git pull origin branch_name`
+* Pull a branch from origin:
+  * `git pull origin branch_name`
 
-* Pull someone else's remote branch into a new local branch:\s\s
-    `git checkout -b branch_name origin/branch_name`
+* Pull someone else's remote branch into a new local branch:
+  * `git checkout -b branch_name origin/branch_name`
 
-* Push local master to origin: **DANGER ZONE: Generally avoid this command. Use branching.**\s\s
-    `git push origin master`
+* Push local master to origin: **DANGER ZONE: Generally avoid this command. Use branching.**
+  * `git push origin master`
 
-* Push local branch to origin:\s\s
-    `git push origin branch_name`
+* Push local branch to origin:
+  * `git push origin branch_name`
 
-* Delete a local branch: **DANGER ZONE: Be sure this is necessary before performing.**\s\s
-    `git branch -d branch_name`\s\s
-    This will possibly result in a fatal error because deleting = bad. To continue with delete anyway:\s\s
-    `git branch -D branch_name`
+* Delete a local branch: **DANGER ZONE: Be sure this is necessary before performing.**
+  * `git branch -d branch_name`
+  * This will possibly result in a fatal error because deleting = bad. To continue with delete anyway:
+  * `git branch -D branch_name`
 
 ## Branching and Merging
 * When a merge request is made, but hasn't been fulfilled yet, any pushes made to the branch while it's waiting to be merged, will still receive any commits pushed to it.
