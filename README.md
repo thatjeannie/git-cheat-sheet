@@ -1,6 +1,6 @@
-Git Cheat Sheet
+# Git Cheat Sheet
 
-# BASIC
+## Basic Tips with Commands
 * Create and check out a new local branch:\s\s
     `git checkout -b branch_name`
 
@@ -39,13 +39,13 @@ Git Cheat Sheet
     This will possibly result in a fatal error because deleting = bad. To continue with delete anyway:\s\s
     `git branch -D branch_name`
 
-# BRANCHING and MERGING
+## Branching and Merging
 * When a merge request is made, but hasn't been fulfilled yet, any pushes made to the branch while it's waiting to be merged, will still receive any commits pushed to it.
 * When you're ready to submit a merge request for a branch, switch to master, pull master, then switch back to your branch, merge master into that branch, push the branch, then submit merge request.
 * Create new feature branch: `git checkout master` `git checkout -b feature_branch_name`
 * Push feature branch to origin: `git push origin feature_branch_name`
 
-# OTHER RANDOM INFO FROM MARK
+### Other Random Stuff From Mark
 
 // Install Git
 sudo apt-get update
