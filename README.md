@@ -22,6 +22,12 @@
 * Pull master from origin:
   * `git pull origin master`
 
+* See all remote branches
+  * `git branch -r`
+
+* Pull all remote branches
+  * `git fetch`
+
 * Pull a branch from origin:
   * `git pull origin branch_name`
 
