@@ -26,8 +26,8 @@
   * `git pull origin branch_name`
 
 * Pull someone else's remote branch and track it in a local branch:
-  * `git fetch` then `git checkout branch_name` ** NEW: This will pull all remote branches then set up a local branch to track the remote one. **
-  * `git checkout -b branch_name origin/branch_name` ** OLD: This will return a fatal error in git >1.6.6 **
+  * `git fetch` then `git checkout branch_name` **NEW: This will pull all remote branches then set up a local branch to track the remote one.**
+  * `git checkout -b branch_name origin/branch_name` **OLD: This will return a fatal error in git >1.6.6**
 
 * Push local master to origin: **DANGER ZONE: Generally avoid this command. Use branching.**
   * `git push origin master`
