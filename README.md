@@ -101,6 +101,7 @@ git push origin --delete feature-branch-name
 ```
 
 **Best Practices**
+
 Branch naming convention:
 - Separate words with hyphens ("-")
 - Use descriptive branch names
